@@ -81,33 +81,28 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
+    min-width: 784px;
     margin: 0 auto
 }
-.two-columns_brief {
+.two-columns__brief {
     width: 175px;
-}
-.two-columns_brief_inner {
-    margin: 0 auto;
+    margin: 0;
     color: #2F80ED;
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
 }
-.two-columns_main-text {
+.two-columns__main-text {
     width: 80%;
     min-width: 784px;
     line-height: 34px;
     font-size: 24px;
 }
-/* .description__two-columns_main-text_paragraph {
-    width: 80%;
-    min-width: 784px;
-}  */
-.two-columns_main-text_paragraph_inner {
+.two-columns__paragraph {
     margin: 0 auto;
 }
-.two-columns_main-text_paragraph:not(:last-child) {
-    margin-bottom: 30px;
+.two-columns__paragraph:not(:last-child) {
+    margin: 0 auto 30px auto;
 }
 .two-columns__span-accent {
     font-weight: bold;
@@ -121,21 +116,15 @@
 .section-title {
     margin: 0 auto 20px auto;
     width: 60%;
-}
-.section-title_main-title {
-    margin: 0 auto;
     line-height: 69px;
     font-size: 60px;
 }
 .section-subtitle {
     width: 60%;
-    margin: 0 auto 60px auto;
-}
-.section-subtitle_text {
-    margin:  0 auto;
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
+    margin: 0 auto 60px auto;
 }
 .table {
     display: flex;
@@ -143,30 +132,30 @@
     flex-wrap: wrap;
     margin: 0 auto;
 }
-.table_cell {
+.table__cell {
     margin-bottom: 60px;
 }
-.table_cell_no_margin-bottom {
+.table__cell_no_margin-bottom {
     margin-bottom: 0;
 }
-.table_cell:not(:nth-of-type(4n)) {
+.table__cell:not(:nth-of-type(4n)) {
     margin-right: 30px;
 }
-.table_cell_heading-fact {
+.table__heading {
     margin: 0 auto 20px auto;
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
 }
-.table_cell_text_description {
+.table__text {
     width: 250px;
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
 }
-.section-table_cell_text_description:not(:nth-of-type(2n)) {
-    margin-bottom: 20px;
+.table__text:nth-of-type(2n) {
+    margin-bottom: 0;
 }
 .feinman {
     padding-top: 100px;
@@ -177,45 +166,33 @@
 }
 .feinman__title {
     width: 648px;
+    line-height: 1.15;
+    font-size: 120px;
     margin: 0 auto 70px auto;
     position: relative;
     z-index: 3;
 }
-.feinman__title_heading {
-    margin: 0 auto;
-    line-height: 1.15;
-    font-size: 120px;
-}
 .feinman__subtitle {
     position: relative;
     z-index: 3;
-}
-.feinman__subtitle_heading {
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
 }
-.feinman__link_position-right {
+.feinman__link {
     position: absolute;
     top: 50%;
     right: 48px;
-}
-.feinman__image_background_bottom-left {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
-.feinman__link_unactive {
     text-decoration: none;
     color: black;
     line-height: 51px;
     font-size: 36px;
 }
-/* .feinman__image_background {
+.feinman__image {
     position: absolute;
-    bottom: 0;
     left: 0;
-} */
+    bottom: 0;
+}
 .kaufman {
     padding: 90px 0;
     background-color: #1f1f1f;
@@ -226,39 +203,30 @@
 .section-subtitle_theme_dark {
     margin-bottom: 80px;
 }
-.section-table {
+.table {
     position: relative;
     z-index: 1;
 }
-.section-table_cell_theme_dark {
-    margin-right: 0;
-    padding-bottom: 80px;
+.table__cell_theme_dark {
+    margin: 0;
+    margin-bottom: 80px;
 }
-.section-table_cell_theme_dark:not(:nth-of-type(5n)) {
+.table__cell_theme_dark:not(:nth-of-type(5n)) {
     margin-right: 25px;
 }
-.section-table_cell_theme_dark:nth-of-type(5n) {
+.table__cell_theme_dark:nth-of-type(5n) {
     margin-right: 0;
 }
-.section-table_cell_text_description_theme_dark {
+.no_margin-bottom {
+    margin-bottom: 0;
+}
+.table__text_theme_dark {
     width: 200px;
     margin: 0 auto;
 }
-.section-table_cell_text_description_theme_dark:nth-of-type(1n) {
-    margin: 0 auto;
-}
-.no_margin-bottom {
-    padding-bottom: 0;
-}
-.kaufman_triangle {
+.kaufman__triangle {
     width: 877px;
     height: 877px;
-}
-.kaufman_trianlge_pic {
-    width: 875px;
-    height: 850px;
-}
-.kaufman_triangle_position_right {
     position: absolute;
     top: 0;
     right: 0;
@@ -314,6 +282,3 @@
 .footer__social-icon{
     margin-right: 10px;
 }
-/* .footer__column-link_active:not(:nth-of-type(3n)) {
-    margin-bottom: 10px;
-} */
