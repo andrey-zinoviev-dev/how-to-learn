@@ -135,9 +135,6 @@
 .table__cell {
     margin-bottom: 60px;
 }
-.table__cell_no_margin-bottom {
-    margin-bottom: 0;
-}
 .table__cell:not(:nth-of-type(4n)) {
     margin-right: 30px;
 }
