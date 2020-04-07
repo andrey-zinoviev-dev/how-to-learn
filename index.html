@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Научиться учиться</title>
     <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
     <div class="page">
@@ -26,6 +26,57 @@
                         <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме</p>
                     </div>
                 </div>
+            </section>
+            <section class="technics">
+                <h2 class="section-title">Техники обучения</h2>
+                <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+                <div class="cards">
+                    <div class="cards__item">
+                        <img class='cards__iamge' src="./images/attention.png" alt="">
+                        <h4 class="cards__title">Два вида внимания</h4>
+                        <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+                    </div>
+                    <div class="cards__item">
+                        <img class='cards__iamge' src="./images/recall.png" alt="">
+                        <h4 class="cards__title">Recall</h4>
+                        <p class="cards__description">Вспоминайте изученное- это позволит соединить разрозненные порции памяти.</p>
+                    </div>
+                    <div class="cards__item">
+                        <img class='cards__iamge' src="./images/interliving.png" alt="">
+                        <h4 class="cards__title">Интерливинг</h4>
+                        <p class="cards__description">Изучайте несолько навыков одновременно, они обогащают друг друга.</p>
+                    </div>
+                    <div class="cards__item">
+                        <img class='cards__iamge' src="./images/question.png" alt="">
+                        <h4 class="cards__title">Вопросы</h4>
+                        <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действиетльно волнует.</p>
+                    </div>
+                    <div class="cards__item">
+                        <img class='cards__iamge' src="./images/competence.png" alt="">
+                        <h4 class="cards__title">Иллюзия компетентности</h4>
+                        <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="video">
+                <h2 class="section-title">Видео на TED</h2>
+                <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+                <div class="video__iframes">
+                    <iframe class="video__iframe" width="560" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="video__iframe" width="560" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section class="oakley">
+                <div class="two-columns">
+                    <h6 class="two-columns__brief">История Барбары Оакли.</h6>
+                    <p class="two-columns__main-text">С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причем далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что ее выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то "плохо дается", ваши добытые трудом знания гораздо глубже чем у тех, кому все ясно с первого взгляда.</p>
+                </div>
+            </section>
+            <section class="feinman">
+                <h2 class="feinman__title">Метод Фейнмана</h2>
+                <p class="feinman__subtitle">Выучить и не забыть.</p>
+                <a class="feinman__link" href="#">Подробнее &#8594;</a>
+                <img class='feinman__image' src="./images/feinman.png" alt="Портрет Фейнмана">
             </section>
             <section class="digits">
                 <h2 class="section-title">Цифры и факты</h2>
@@ -67,16 +118,23 @@
                     </div>                    
                 </div>
             </section>
-            <section class="feinman">
-                <h2 class="feinman__title">Метод Фейнмана</h2>
-                <p class="feinman__subtitle">Выучить и не забыть.</p>
-                <a class="feinman__link" href="#">Подробнее &#8594;</a>
-                <img class='feinman__image' src="./images/feinman.png" alt="Портрет Фейнмана">
+            <section class="khan">
+                <div class="khan__container">
+                    <h3 class="khan__author">Салман Хан</h3>
+                    <h2 class="khan__title">Весь мир - школа</h2>
+                    <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу "Весь мир - школа" нужно прочитать всем, кто занимается образованием - так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+                    <h4 class="khan__quote-author">Джордж Лукас</h4>
+                    <p class="khan__quote-auhtor-subline">Кинорежиссер, продюсер</p>
+                    <div class="khan__book-container">
+                        <img class='khan__book-pic' src="./images/book.jpg" alt="Книга Весь мир- школа">
+                        <a class='khan__buy-link' href="">Купить книгу &#8594;</a>
+                    </div>
+                </div>
             </section>
             <section class="kaufman">
                 <h3 class="section-title section-title_theme_dark">Принципы обучения</h3>
                 <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
-                <div class="table">
+                <div class="table table_theme_dark">
                     <div class="table__cell table__cell_theme_dark">
                         <h4 class="table__heading table__heading_theme_dark">1</h4>
                         <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
@@ -120,6 +178,16 @@
                 </div>
                 <img class="kaufman__triangle" src="./images/triangle.svg" alt="Синий треугольник">
             </section>
+            <section class="resources">
+                <h2 class="section-title">Полезные ресурсы</h2>
+                <p class="section-subtitle">Боольше материалов о техниках и лайфхаках обучения</p>
+                <ul class="resources__logo-zone">
+                    <li><a href="#"><img class='resources__logo' src="./images/logo/arzamas.svg" alt="Логотип Арзамас"></li></a>
+                    <li><a href="#"><img class='resources__logo' src="./images/logo/n1.svg" alt="Логотип N+1"></li></a>
+                    <li><a href="#"><img class='resources__logo' src="./images/logo/strelka.svg" alt="Логотип Стрелка"></li></a>
+                    <li><a href="#"><img class='resources__logo' src="./images/logo/polka.svg" alt="Логотип Полка"></li></a>
+                </ul>
+            </section>
         </main>
         <footer class="footer">
             <div class="footer__columns">
@@ -133,7 +201,7 @@
                         <li><a class="footer__column-link" href="#">Главная</a></li>
                         <li><a class="footer__column-link" href="#">Концепция</a></li>
                         <li><a class="footer__column-link" href="#">Наставники</a></li>
-                </ul>
+                    </ul>
                 </nav>
                 <nav class="footer__column footer__column_content_social">
                     <h3 class="footer__column-heading">Соцсети</h3>
