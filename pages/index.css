@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
@@ -16,11 +17,4 @@
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/footer/footer.css);
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
+@import url(../blocks/rotate/rotate.css);
